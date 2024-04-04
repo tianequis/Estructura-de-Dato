@@ -1,11 +1,8 @@
-#pragma once
-#include <iostream>
-#include<string.h>
-#include<stdlib.h>
+#include "eventos.h"
 
-class eventos{
-    public:
-        eventos(int duracion, std::string ubicacion, std::string tema);
-    private:
-
-};
+eventos::eventos(int duracion, std::string ubicacion, std::string tema){
+    this -> duracion = duracion;
+    this -> ubicacion = ubicacion;
+    this -> tema = tema;
+    }
+;

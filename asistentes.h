@@ -1,16 +1,13 @@
 #pragma once
-#include<iostream>
-#include<string.h>
-#include<stdlib.h>
 
-using namespace std;
+#include<string>
 
 class asistentes{
-
+    private:
+        std::string nombre;
+        int edad;
+        std::string ocupacion;
+        std::string empresa;
     public:
-    string nombre;
-    int edad;
-    string ocupación;
-    string empresa;
-
+        asistentes(std::string nombre, int edad, std::string ocupacion, std::string empresa){}
 };
